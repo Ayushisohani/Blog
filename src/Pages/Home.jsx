@@ -59,7 +59,7 @@ function Home() {
                         
                 <div className='flex flex-wrap my-40'>
                     {posts.map((post) => (
-                        <div key={post.$id} className='p-2 w-1/4 transition-transform duration-500 ease-in-out transform hover:translate-y-[-20%] h-auto'>
+                        <div key={post.$id} className='p-2 w-1/4 mt-16 transition-transform duration-500 ease-in-out transform hover:translate-y-[-20%] h-auto'>
                       <PostCard {...post} />
                         </div>
                     ))}
