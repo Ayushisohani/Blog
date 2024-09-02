@@ -42,8 +42,7 @@ export default function Post() {
                         alt={post.title}
                         className="rounded-xl w-full h-64"
                     />
-
-                    {isAuthor && (
+                     {isAuthor && (
                         <div className="absolute right-6 top-6">
                             <Link to={`/edit-post/${post.$id}`}>
                                 <button className="mr-3 bg-blue-950 text-white text-2xl p-2 rounded-lg">
