@@ -5,17 +5,12 @@ import Logo from '../logo'
 function Footer() {
   return (
     <section className="relative overflow-hidden py-10 bg-blue-400 ">
-            <div className="relative z-10 mx-auto max-w-7xl px-4">
+            <div className="relative z-10 mx-auto max-w-5xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
                         <div className="flex h-full flex-col justify-between">
                             <div className="mb-4 inline-flex items-center text-black">
                                 <Logo width="100px" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-black">
-                                    &copy; Copyright 2023. All Rights Reserved by DevUI.
-                                </p>
                             </div>
                         </div>
                     </div>
