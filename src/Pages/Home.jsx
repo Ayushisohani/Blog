@@ -43,9 +43,9 @@ function Home() {
      <div className='w-full py-8 my-24'>
             <Container>
             <div className="flex flex-wrap">
-                        <h1 className='text-gray-900 font-mono text-7xl flex'> Create Your Blog</h1>
+                        <h1 className='text-gray-900 font-snas text-7xl flex'> Create Your Blog</h1>
                         <div className='flex'>
-                       <p className='text-slate-900 my-8 text-2xl mr-32 w-full font-mono '>Transform your ideas into impactful <br /> content with our 
+                       <p className='text-slate-900 my-8 text-2xl mr-32 w-full font-sans '>Transform your ideas into impactful <br /> content with our 
                        <br /> proven strategies and resources. 
                         Start <br /> crafting engaging posts <br /> that resonate  with <br /> your audience today.<br/> 
                      </p>
