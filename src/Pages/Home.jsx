@@ -22,14 +22,17 @@ function Home() {
                     <div className="flex flex-wrap">
                     <div>
                         <h1 className='text-gray-900 text-7xl font-sans flex '> Create Your Blog</h1>
-                        <div className='flex w-full h-auto'>
+                        <div className='flex'>
+                          <div className='w-full h-auto'>
                        <p className='text-slate-900 my-8 text-2xl mr-32 mt-15 w-full font-sans flex '>Transform your ideas into impactful <br /> content with our 
                        <br /> proven strategies and resources. 
                         Start <br /> crafting engaging posts <br /> that resonate  with <br /> your audience today.<br/> 
                      </p>
+                            </div>
+                          <div className='w-full h-auto'> 
                       <img className='transition-transform duration-500 ease-in-out transform hover:translate-y-[-20%] w-[550px] max-w-full h-auto'
                                src="https://cdni.iconscout.com/illustration/premium/thumb/blogging-illustration-download-in-svg-png-gif-file-formats--blogger-logo-blog-content-article-web-and-mobile-ui-pack-user-interface-illustrations-1784890.png?f=webp" alt="" />
-                       
+                       </div>
                       </div>
                     </div>
                         
@@ -45,15 +48,17 @@ function Home() {
             <div className="flex flex-wrap">
                         <h1 className='text-gray-900 font-snas text-7xl flex'> Create Your Blog</h1>
                         <div className='flex'>
+                             <div className='w-full h-auto'>
                        <p className='text-slate-900 my-8 text-2xl mr-32 w-full font-sans '>Transform your ideas into impactful <br /> content with our 
                        <br /> proven strategies and resources. 
                         Start <br /> crafting engaging posts <br /> that resonate  with <br /> your audience today.<br/> 
                      </p>
-                        
+                        </div>
+                             <div className='w-full h-auto'>
                       <img className='transition-transform duration-500 ease-in-out transform hover:translate-y-[-20%] w-[550px] -m-10 flex '
                                src="https://cdni.iconscout.com/illustration/premium/thumb/blogging-illustration-download-in-svg-png-gif-file-formats--blogger-logo-blog-content-article-web-and-mobile-ui-pack-user-interface-illustrations-1784890.png?f=webp" alt="" />
                        
-                       
+                       </div>
                       </div>
                     </div>
                         
