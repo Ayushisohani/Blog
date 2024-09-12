@@ -1,8 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import appwriteService from "../appwrite/config"
 import {Container,PostCard} from '../Components'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function Home() {
   const [posts, setPosts] = useState([])
@@ -49,7 +47,7 @@ function Home() {
                         <h1 className='text-gray-900 font-snas text-7xl flex'> Create Your Blog</h1>
                         <div className='flex'>
                              <div className='w-full h-auto'>
-                       <p className='text-slate-900 my-8 text-2xl mr-32 w-full font-sans '>Transform your ideas into impactful <br /> content with our 
+                       <p className='text-slate-900 my-8 text-2xl mr-32 mt-15 w-full font-sans flex '>Transform your ideas into impactful <br /> content with our 
                        <br /> proven strategies and resources. 
                         Start <br /> crafting engaging posts <br /> that resonate  with <br /> your audience today.<br/> 
                      </p>
